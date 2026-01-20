@@ -289,12 +289,11 @@ justify-items: center;
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-
+    grid-template-rows: repeat(3, 1fr); 
 }
 .premium-audio-quality{
 grid-row: span 2 / span 2;
-
+  align-content: center;
 }
 
 .mobile-friendly{
@@ -437,6 +436,19 @@ grid-row: span 2 / span 2;
     box-shadow: 0 30px 80px rgba(0,0,0,.4);
     text-align: left;
 }
+.host-img-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.host-img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 .host-details{
     margin-left: 1.5rem;
 }
