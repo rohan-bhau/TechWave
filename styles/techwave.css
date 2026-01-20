@@ -267,3 +267,72 @@ text-align: center;
     color: rgba(255, 255, 255, 1);
     font-size: 1rem;
 }
+
+/* features related styles */
+.features{
+    background-color: #230E3D;
+}
+.feature-container{
+padding: 7.5rem 12.5rem;
+justify-items: center;
+}
+.features h2{
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+/* grid area declaration */
+.premium-audio-quality{
+    grid-areas: premium-audio-quality;
+}
+
+.mobile-friendly{
+    grid-area: mobile-friendly;
+}
+.global-community{
+    grid-area: global-community;
+}
+
+.exclusive-interview{
+    grid-area: exclusive-interview;
+}
+
+.rich-resources{
+    grid-area: rich-resources;
+}
+
+.feature-card{
+    margin-top: 3.8rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-areas: 
+    "premium-audio-quality  mobile-friendly   mobile-friendly"
+    "premium-audio-quality  global-community  global-community"
+    " exclusive-interview   exclusive-interview rich-resources "
+    ;
+
+}
+
+.feature-card-container{
+    padding: 2.8rem;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 2.5rem;
+}
+
+.feature-card-container img{
+    align-items: start;
+}
+ .feature-card-container h3{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+ }
+
+ .feature-card-container p{
+    font-size: 1rem;
+    color: #FFFFFF;
+ }
